@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <div class="container">
+        <h1>Upload Additional Files</h1>
+        <form action="{{ url_for('upload_additional_file') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" multiple>
+            <button type="submit">Upload More Files</button>
+            <button type="button" onclick="location.href='{{ url_for('done') }}'">Done</button>
+        </form>
+    </div>
+</body>
+</html>
