@@ -1,0 +1,106 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url("../static/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    margin: 50px auto;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.7); /* Dark transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Header Styling */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* Links */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #45a049;
+}
+
+/* Button Styles */
+.btn {
+    display: block;
+    width: 150px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #45a049;
+}
+
+/* Logout Button */
+.logout-button {
+    padding: 10px 15px;
+    background-color: #ff4d4d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.logout-button:hover {
+    background-color: #cc0000;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid #4CAF50;
+}
+
+nav h2 {
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    background-color: #4CAF50;
+}
