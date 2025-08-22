@@ -60,5 +60,5 @@ View and download files from /file_access
 Author
 Aryan Singh
 📧 Email: aaryansingh66661@gmail.com
-🔗 LinkedIn: Aryan Singh
+🔗 LinkedIn: https://www.linkedin.com/in/aryan-singh-02a449340/
 
